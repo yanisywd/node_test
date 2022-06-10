@@ -1,0 +1,6 @@
+const names=require('./names')
+const sayhi=require("./func.js")
+const data=require("./alt.js")
+console.log(data)
+sayhi(names.john)
+sayhi('eliot')
